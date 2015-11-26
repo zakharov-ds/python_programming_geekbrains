@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+	 <head>
+  		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  		<title>Регистрация</title>
+ 	</head>
+ 	<body>
+  		<h4 align="left">Заполните данные ниже</h4>
+  		<!-- комментарий-->
+		<form 	action=""
+				>
+			<fieldset style="border: 1px solid #000;">
+				<legend>Регистрационные данные</legend>
+				<input type="text" name="last_name" placeholder="Фамилия">
+				<input type="text" name="name" placeholder="Имя">
+				<input type="text" name="second_name" placeholder="Отчество">
+				Введите дату рождения: 
+				<input type="date" name="date_of_birth" placeholder="Введите email">
+				<br>
+				<br>
+				Загрузите свою фотографию:
+				<input type="file" align="right">
+				<br>
+				<br>
+				<input type="text" name="email" placeholder="Введите email">
+				Введите адрес сайта: <input type="text" name="url_http" value="http://">
+				<br>
+				<br>
+				Пол<br>
+				<input type="radio" name="sex" value="male">Мужской
+				<input type="radio" name="sex" value="female">Женский
+				<br>
+				<br>
+				<input type="password" name="password" placeholder="Введите Ваш пароль">
+			</fieldset>
+			<fieldset style="border: 1px solid #000;">
+				<legend>Общая информация о Вас</legend>
+				Блюда какой кухни Вы предпочитаете?<br>
+				<select name="kitchen"
+						multiple="multiple"
+						size="4">
+					<option value="1" selected="selected">Русской</option>
+					<option value="2">Итальянской</option>
+					<option value="3">Европейской</option>
+					<option value="4">Израильской</option>
+					<option value="5">Африканской</option>
+					<option value="6">Китайской</option>
+					<option value="7">Марсианской :)</option>
+				</select>
+				<br>
+				<br>Ваши предпочтения в еде:<br>
+				<input type="checkbox" name="">Острая
+				<input type="checkbox" checked="cheked" name="">Нейтральная
+				<input type="checkbox" name="">Огненная
+				<input type="checkbox" name="">Мне все равно :)
+				<br>
+				<br>Расскажите нам о себе:<br>
+				<textarea placeholder="Напишите здесь все что хотите :)"></textarea>
+				<br>Вам понравилась наша регистрационная форма?:<br>
+				<input type="radio" name="" value="">Да, все было круто!
+				<input type="radio" name="" value="">Нет, мне все понравилось:)
+			</fieldset>
+		</form>
+		<br>
+		<input type="submit" value="Сохранить">
+		<input type="reset" value="Очистить">
+		<a href="../index.html" align="right">На главную...</a>
+ 	</body>
+ 	<footer>
+ 		<hr>
+ 		ZakharovDS&copy;
+ 	</footer>
+</html>
