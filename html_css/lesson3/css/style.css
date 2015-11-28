@@ -1,0 +1,13 @@
+/*<style>
+   		.leftstr, .rightstr {float: none; /* Обтекание справа 
+    						width: 50%; /* Ширина текстового блока }
+   		.rightstr 	{text-align: right; /* Выравнивание по правому краю }
+   		background-color: #3366CC;
+</style>*/
+body {	background-image: url(../images/background.png);
+	  	background-position:  right top;
+		background-repeat: no-repeat;
+		background-size: 10% auto;}
+.leftstr, .rightstr {float: left; /* Обтекание справа */
+					 width: 50%; /* Ширина текстового блока */}
+.rightstr 	{text-align: right; /* Выравнивание по правому краю */}

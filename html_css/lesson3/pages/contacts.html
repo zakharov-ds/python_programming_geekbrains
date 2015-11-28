@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+  		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  		<link 	rel="stylesheet"
+				href="../css/style.css"
+				type="text/css"/>
+  		<title>Контакты</title>
+ 	</head>
+ 	<body>
+  		<h4 align="left">Контакты</h4>
+  		<!-- комментарий-->
+  		<a href="../index.html">На главную...</a>
+  		<p>
+  			<ul>
+	  			<b>Меню</b>
+	  			<li><a href="paper.html">Статьи</a></li>
+	  			<li><a href="catalog.html">Каталог</a></li>
+	  			<li><a href="galery.html">Галерея изображений</a></li>
+	  			<li><a href="registration.html">Регистрация</a></li>
+	  			<li><a href="contacts.html">Контакты</a></li>
+	  		</ul>
+  		</p>
+		<form 	action=""
+				id="contact" 
+				>
+			<fieldset style="border: 1px solid #000;">
+				<legend>Как добраться</legend>
+				Адрес: Мой адрес не дом и не улица! :)<br>
+				Схема проезда:<br>
+				<script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=n0po6TVI8eOB9-A_j7tPEMtPjSAgpHBg&width=606&height=452&lang=ru_RU&sourceType=constructor"></script>
+			</fieldset>
+			<fieldset style="border: 1px solid #000;">
+				<legend>Форма обратной связи</legend>
+				<input type="text" name="last_name" placeholder="Фамилия">
+				<input type="text" name="name" placeholder="Имя">
+				<input type="text" name="second_name" placeholder="Отчество">
+				<br>
+				<br>
+				<input type="text" name="email" placeholder="Ваш email">
+				<br>
+				<br>
+				<textarea placeholder="Введите Ваш вопрос здесь"></textarea>
+			</fieldset>
+			<br>
+			<input type="submit" form="contact" value="Отправить">
+			<input type="reset" form="contact" value="Очистить">
+		</form>
+		<a href="../index.html" align="right">На главную...</a>
+ 	</body>
+ 	<footer>
+ 		<hr>
+ 		ZakharovDS&copy;
+ 	</footer>
+</html>
