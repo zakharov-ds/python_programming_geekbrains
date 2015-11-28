@@ -11,3 +11,9 @@ body {	background-image: url(../images/background.png);
 .leftstr, .rightstr {float: left; /* Обтекание справа */
 					 width: 50%; /* Ширина текстового блока */}
 .rightstr 	{text-align: right; /* Выравнивание по правому краю */}
+ul a {	color: orange;
+		font: bold italic small-caps 12px/14px fantasy;}
+ul a:hover {	color: orange;
+				font: bold italic small-caps 24px/14px fantasy;}
+p.papers_a a {	font: bold italic 110% serif;
+				color: }
