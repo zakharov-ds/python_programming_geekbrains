@@ -12,8 +12,30 @@ body {	background-image: url(../images/background.png);
 					 width: 50%; /* Ширина текстового блока */}
 .rightstr 	{text-align: right; /* Выравнивание по правому краю */}
 ul a {	color: orange;
-		font: bold italic small-caps 12px/14px fantasy;}
+		font: bold italic small-caps 16px/14px fantasy;}
 ul a:hover {	color: orange;
-				font: bold italic small-caps 24px/14px fantasy;}
-p.papers_a a {	font: bold italic 110% serif;
-				color: }
+				font: bold italic small-caps 26px/14px fantasy;}
+h4.papers_a a {	font: bold italic 110% serif;
+				color: brown;
+				text-decoration: none;
+				border-bottom: 1px solid black;}
+a:hover.readnext {	text-decoration: none;
+					color: orange;}
+a.comment {color: gray;}
+p.flpaper:first-letter {	font-size: 200%;
+							color:red;}
+ul.maincat >li {list-style-type: none;
+				background-image: url(../images/bullet_orange.png);
+				background-repeat: no-repeat;
+				background-position: 0;
+				color: orange;
+				padding-left: 30px;
+				display: inline;
+				font-size: 120%;}
+ul.subcat >li {	background-image: url(../images/bullet_green.png);
+				background-repeat: no-repeat;
+				background-position: 0;
+				padding-left: 25px;
+				list-style-type: none;
+				color: green;
+				width: 200px;}
