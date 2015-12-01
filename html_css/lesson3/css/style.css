@@ -24,7 +24,7 @@ a:hover.readnext {	text-decoration: none;
 a.comment {color: gray;}
 p.flpaper:first-letter {	font-size: 200%;
 							color:red;}
-ul.maincat >li {list-style-type: none;
+/*ul.maincat >li {list-style-type: none;
 				background-image: url(../images/bullet_orange.png);
 				background-repeat: no-repeat;
 				background-position: 0;
@@ -32,10 +32,24 @@ ul.maincat >li {list-style-type: none;
 				padding-left: 30px;
 				display: inline;
 				font-size: 120%;}
-ul.subcat >li {	background-image: url(../images/bullet_green.png);
+ul.subcat >li {	list-style-type: none;
+				background-image: url(../images/bullet_green.png);
 				background-repeat: no-repeat;
 				background-position: 0;
 				padding-left: 25px;
-				list-style-type: none;
 				color: green;
-				width: 200px;}
+				width: 200px;}*/
+/*.maincat_li {background-color: orange;}*/
+/*ul.maincat >li {list-style-image: url(../images/bullet_orange.png);}*/
+ul.maincat >li span {background-color: orange;}
+ul.subcat >li span {background-color: green;}
+ul.maincat >li {list-style: none;
+				background-image: url(../images/bullet_orange.png);
+				background-repeat: no-repeat;
+				background-position: 0;
+				padding-left: 30px;}
+ul.subcat >li {	list-style: none;
+				background-image: url(../images/bullet_green.png);
+				background-repeat: no-repeat;
+				background-position: 0;
+				padding-left: 25px;}
