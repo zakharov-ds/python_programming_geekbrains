@@ -25,20 +25,47 @@ p.flpaper:first-letter {	font-size: 200%;
 ul.maincat >li span {background-color: orange;}
 ul.subcat >li span {background-color: green;}
 ul.maincat >li {list-style: none;
-				background-image: url(../images/bullet_orange.png);
-				background-repeat: no-repeat;
-				background-position: 0;
-				padding-left: 30px;}
+				background-color: orange;
+				position: relative;
+				display: inline;
+			}
+ul.maincat >li:before {
+	content: '';
+	/*background-color: red;*/
+	background: url(../images/bullet_orange.png) no-repeat -8px -7px;
+	width: 20px;
+	height: 20px;
+	display: block;
+	position: absolute;
+	left: -30px;
+	top: 0px;
+	text-indent: 20050px;
+	}				
 ul.subcat >li {	list-style: none;
-				background-image: url(../images/bullet_green.png);
-				background-repeat: no-repeat;
-				background-position: 0;
-				padding-left: 25px;}
+				position: relative;
+				display: table;
+				background-color: green;
+				}
+ul.subcat >li:before {
+	content: '';
+	/*background-color: red;*/
+	background: url(../images/bullet_green.png) no-repeat 0px 0px;
+	width: 20px;
+	height: 20px;
+	display: block;
+	position: absolute;
+	left: -15px;
+	top: 6px;
+	text-indent: 20050px;
+	}		
+
 li.new:after {	content: 'new';
 				font-style: italic;
 				font-size: 80%;
 				background-color: red;
-				margin-left:15px;}
+				margin-left:15px;
+				position: absolute;
+				}
 img.img_gal {	outline-style: groove;
 				outline-color: gray;
 				outline-width: 5px;}
