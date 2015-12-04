@@ -34,11 +34,11 @@ ul.subcat >li {	list-style: none;
 				background-repeat: no-repeat;
 				background-position: 0;
 				padding-left: 25px;}
-ul.subcat >li:nth-child(2):after {	content: 'new';
-									font-style: italic;
-									font-size: 80%;
-									background-color: red;
-									margin-left:15px;}
+li.new:after {	content: 'new';
+				font-style: italic;
+				font-size: 80%;
+				background-color: red;
+				margin-left:15px;}
 img.img_gal {	outline-style: groove;
 				outline-color: gray;
 				outline-width: 5px;}

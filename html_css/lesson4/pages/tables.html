@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+  		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  		<link 	rel="stylesheet"
+				href="../css/style.css"
+				type="text/css"/>
+  		<title>Таблицы</title>
+ 	</head>
+ 	<body>
+  		<h3 align="center">Таблицы</h3>
+  		<!-- комментарий-->
+  		<a href="../index.html">На главную...</a>
+  		<p>
+  			<ul>
+	  			<b>Меню</b>
+	  			<li><a href="paper.html">Статьи</a></li>
+	  			<li><a href="catalog.html">Каталог</a></li>
+	  			<li><a href="galery.html">Галерея изображений</a></li>
+	  			<li><a href="registration.html">Регистрация</a></li>
+	  			<li><a href="contacts.html">Контакты</a></li>
+	  			<li class="new"><a href="tables.html">Таблицы</a></li>
+	  		</ul>
+  		</p>
+	  	<div class="zadanie1">
+	  		<h5 align="center">Задание 1</h5>
+	  		<table>
+	  			<tr>
+	  				<td rowspan="3"></td>
+	  				<td></td>
+	  				<td></td>
+	  			</tr>
+	  			<tr>
+	  				<td colspan="2"></td>
+	  			</tr>
+	  			<tr>
+	  				<td></td>
+	  				<td></td>
+	  			</tr>
+	  		</table>
+	  		<br>
+	  		<br>
+	  		<table>
+	  			<tr>
+	  				<td colspan="2"></td>
+	  				<td></td>
+	  			</tr>
+	  			<tr>
+	  				<td></td>
+	  				<td colspan="2" rowspan="2">
+	  					<table class="inside">
+	  						<tr>
+	  							<td></td>
+	  							<td rowspan="3"></td>
+	  							<td rowspan="2"></td>
+	  						</tr>
+	  						<tr>
+	  							<td rowspan="2"></td>	  				
+	  						</tr>
+	  						<tr>
+	  							<td></td>
+	  						</tr>
+	  					</table>
+	  				</td>
+	  			</tr>
+	  			<tr>
+	  				<td></td>
+	  			</tr>
+	  		</table>
+	  	</div>
+	  	<div>
+	  		<h5 align="center">Задание 2</h5>
+	  		<form id="reg">
+	  		<table class="regform" align="center">
+	  			<tr>
+	  				<td><label for="name">Имя</label></td>
+	  				<td><input type="text" id="name" placeholder="Имя"></td>
+	  				<td>Загрузите Ваше фото</td>
+	  				<td><input type="file" align="right"></td>
+	  			</tr>
+	  			<tr>
+	  				<td><label for="last_name">Фамилия</label></td>
+	  				<td><input type="text" id="last_name" placeholder="Фамилия"></td>
+	  				<td><label for="email">Введите Ваш емайл</td>
+	  				<td><input type="email" id="email" placeholder="Введите email"></td>
+	  			</tr>
+	  			<tr>
+	  				<td><label for="second_name">Отчество</label></td>
+	  				<td><input type="text" id="second_name" placeholder="Отчество"></td>
+	  				<td><label for="url_http">Адрес Вашего сайта</label></td>
+	  				<td><input type="text" id="url_http" value="http://"></td>
+	  			</tr>
+	  			<tr>
+	  				<td><label for="date_of_birth">Дата рождения</label></td>
+	  				<td><input type="date" id="date_of_birth"></td>
+	  				<td><label for="password">Пароль</label></td>
+	  				<td><input type="password" id="password" placeholder="Введите Ваш пароль"></td>
+	  			</tr>
+	  			<tr>
+	  				<td colspan="2">
+	  					<input type="submit" form="reg" value="Сохранить">
+	  				</td>
+	  				<td colspan="2" id="2">
+	  					<input type="reset" form="reg" value="Очистить">
+	  				</td>
+	  			</tr>
+	  		</table>
+	  		</form>
+	  	</div>
+ 	</body>
+ 	<footer>
+ 		<hr>
+ 		ZakharovDS&copy;
+ 	</footer>
+</html>

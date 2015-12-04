@@ -1,0 +1,63 @@
+body {	background-image: url(../images/background.png);
+	  	background-position:  right top;
+		background-repeat: no-repeat;
+		background-size: 10% auto;}
+body.galery {	background-image: url(../images/background.png),url(../images/m-bg.png);
+	  	background-position:  right top,center;
+		background-repeat: no-repeat,repeat;
+		background-size: 10% auto,auto;}
+.leftstr, .rightstr {float: left; /* Обтекание справа */
+					 width: 50%; /* Ширина текстового блока */}
+.rightstr 	{text-align: right; /* Выравнивание по правому краю */}
+ul a {	color: orange;
+		font: bold italic small-caps 16px/14px fantasy;}
+ul a:hover {	color: orange;
+				font: bold italic small-caps 26px/14px fantasy;}
+h4.papers_a a {	font: bold italic 110% serif;
+				color: brown;
+				text-decoration: none;
+				border-bottom: 1px solid black;}
+a:hover.readnext {	text-decoration: none;
+					color: orange;}
+a.comment {color: gray;}
+p.flpaper:first-letter {	font-size: 200%;
+							color:red;}
+ul.maincat >li span {background-color: orange;}
+ul.subcat >li span {background-color: green;}
+ul.maincat >li {list-style: none;
+				background-image: url(../images/bullet_orange.png);
+				background-repeat: no-repeat;
+				background-position: 0;
+				padding-left: 30px;}
+ul.subcat >li {	list-style: none;
+				background-image: url(../images/bullet_green.png);
+				background-repeat: no-repeat;
+				background-position: 0;
+				padding-left: 25px;}
+li.new:after {	content: 'new';
+				font-style: italic;
+				font-size: 80%;
+				background-color: red;
+				margin-left:15px;}
+img.img_gal {	outline-style: groove;
+				outline-color: gray;
+				outline-width: 5px;}
+img.img_gal:hover {outline-style: none;}
+input[type="email"]:focus {background-color: yellow;
+							color: blue;}
+input[type="submit"]:active {background-color: green;}
+input[type="reset"]:active {background-color: red;}
+input[name$="name"] {text-transform: capitalize;}
+input[id$="name"] {text-transform: capitalize;}
+div.zadanie1 table {border: 2px solid #000;
+					border-collapse: collapse;
+					width: 600px;}
+div.zadanie1 table.inside {width: auto;}
+div.zadanie1 td,tr {border: 2px solid #000;
+					text-align: center;
+					width: 200px;
+					height: 25px;}
+table.regform {	border: 2px solid;
+				border-collapse: collapse;}
+table.regform td,tr {border: 2px solid gray;
+					text-align: left;}		
