@@ -61,7 +61,15 @@ def sort_last(lists):
 # были бы сведены к одному элементу.
 # Таким образом, из [1, 2, 2, 3, 4, 4] получится [1, 2, 3, 4]. 
 def remove_adjacent(nums):
-    nums = list(set(nums)) 
+    '''nums = list(set(nums)) #просто нагуглил такое решение, Вы можете пояснить как это работает? 
+    return nums'''
+    i=1
+    while i < len(nums):
+        if nums[i-1] == nums[i]:
+            del nums[i]
+            print (i)
+            continue
+        i+=1
     return nums
 
 
