@@ -1,1 +1,3 @@
-print "Hello World!"
+# coding: utf8
+a = input()
+print a
