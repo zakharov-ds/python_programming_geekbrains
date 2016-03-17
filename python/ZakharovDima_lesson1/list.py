@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# coding: utf8
+
 # Списки
 
 # Заполните код преведенных ниже функций. Функция main() уже настроена
@@ -16,12 +16,8 @@
 # а первый и последний символы этих строк совпадают.
 # Примечание: в python нет оператора ++. Но += сработает.
 def match_ends(words):
-    k=0
-    for i in words:
-        if i != '': #это было не честно!) не ожидал что строка будет пустая) 
-            if i[0]==i[len(i)-1] and len(i)>=2:
-                k+=1
-    return k
+    # +++ ваш код +++
+    return
 
 
 # B. Начинающиеся с X в начале
@@ -32,11 +28,8 @@ def match_ends(words):
 # ['xanadu', 'xyz', 'aardvark', 'apple', 'mix']
 # Подсказка: это можно сделать при помощи склеивания 2х заранее отсортированных списков
 def front_x(words):
-    a = sorted(words) #почему в функции не работают методы .sort() и .reverse() ?
-    for i in range(0,len(a)-1):
-        if a[i].startswith('x'):
-            k=i
-    return a[k:]+a[:k]
+    # +++ ваш код +++
+    return
 
 
 # C. Сортировка по последнему числу
@@ -49,9 +42,8 @@ def front_x(words):
 # чтобы получить последний элемент подсписка.
 
 def sort_last(lists):
-    def sort_col(i):
-        return i[len(i)-1]
-    return sorted(lists, key = sort_col)#так до конца не понял что именно принимает параметр key, интуитивно понял что нужен последний элемнт
+    # +++ ваш код +++
+    return
 
 
 
@@ -61,16 +53,8 @@ def sort_last(lists):
 # были бы сведены к одному элементу.
 # Таким образом, из [1, 2, 2, 3, 4, 4] получится [1, 2, 3, 4]. 
 def remove_adjacent(nums):
-    '''nums = list(set(nums)) #просто нагуглил такое решение, Вы можете пояснить как это работает? 
-    return nums'''
-    i=1
-    while i < len(nums):
-        if nums[i-1] == nums[i]:
-            del nums[i]
-            print (i)
-            continue
-        i+=1
-    return nums
+    # +++ ваш код +++
+    return
 
 
 
